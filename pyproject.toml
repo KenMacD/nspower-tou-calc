@@ -1,0 +1,14 @@
+[project]
+name = "nspower-tou-calc"
+version = "0.1.0"
+description = "Nove Scotia Power Time of Use calculator"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pandas>=2.2.3",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "ruff>=0.7.1",
+]
